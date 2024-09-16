@@ -1,50 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 *{
-    font-family: 'Times New Roman', Times, serif;
-}
-.container{
-    background: linear-gradient(90deg, #12e7b9, #1151b1);
-    width: 100%;
-    min-height: 100vh;
-    padding: 10px;
-}
-.List{
-    padding: 20px 70px 30px;
-    width: 100%;
-    max-width: 600px;
-    margin: 20px auto 100px;
-    background: #d8cdcd;
-    border-radius: 10px;
-}
-.List h2{
-    text-align: center;
-    font-size: 45px;
-    color: #f81661;
-}
-.row{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 30px;
-    margin: 25pxx;
-    padding: 20px;
-    background: #f9f9fa;
-}
-input{
-    background: transparent;
-    border: none;
-    font-size: 20px;
-    outline: none;
-    width: 80%;
-}
-button{
-    background-color: rgb(245, 74, 12);
-    border-radius: 50px;
-    padding: 16px 40px;
-    border: none;
-    cursor: pointer;
-}
-button:hover{
-    background: #12e7b9;
+    font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 ul li{
     list-style: none;

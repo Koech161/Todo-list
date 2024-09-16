@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=d, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="List">
-            <h2>ShoppingList</h2>
-        <div class="row">
-            <input type="text" id="inputbox" placeholder=" enter shopping">
-            <button onclick="addTask()">Add</button>
-            
-        </div>
-        <ul id="shoppingcontainer">
-           <!--comment out the list after--> 
-            <!--<li class="checked" >Task1</li>
-            <li>Task1</li>
-            <li>Task1</li>-->
-        </ul>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h2 class="text-center">To-do List</h2>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-8">
+                        <input type="text" id="inputbox" class="form-control" placeholder="Enter shopping item">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-light btn-light  btn-block"  onclick="addTask()">Add</button>
+                    </div>
+                </div>
+                <ul id="shoppingcontainer" class="list-group">
+                    <!-- Shopping list items will be added here -->
+                </ul>
+            </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
